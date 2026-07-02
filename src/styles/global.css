@@ -235,6 +235,7 @@ ul { list-style: none; }
 .hero__bg-grid {
   position: absolute;
   inset: 0;
+  pointer-events: none;
   background-image:
     linear-gradient(to right, var(--border-soft) 1px, transparent 1px),
     linear-gradient(to bottom, var(--border-soft) 1px, transparent 1px);
@@ -246,6 +247,7 @@ ul { list-style: none; }
 
 .hero__glow {
   position: absolute;
+  pointer-events: none;
   top: -10%;
   left: 50%;
   width: 900px;
