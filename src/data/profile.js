@@ -24,7 +24,8 @@ export const marqueeItems = [
   'Appium',
   'K6',
   'JavaScript',
-  'Python',
+  'TypeScript',
+  'CodeCeptJS',
   'MySQL',
   'BDD / Gherkin',
   'Scrum',
@@ -34,13 +35,13 @@ export const marqueeItems = [
 
 export const about = {
   paragraphs: [
-    'Comecei minha trajetória em tecnologia como desenvolvedor, o que hoje me dá uma visão diferenciada como QA: entendo o código por trás do bug, não só o sintoma. Desde 2023 atuo focado em Qualidade de Software, migrando de testes manuais estruturados para automação completa de fluxos web, API e mobile.',
-    'Hoje, como QA Pleno, lidero planejamento de estratégia de testes, POCs de novas ferramentas, automação com Cypress, Playwright e Appium, testes de performance com K6 e cenários BDD com Gherkin — sempre em ciclos ágeis, facilitando rituais Scrum e colaborando de perto com o time de desenvolvimento.',
+    'Comecei minha trajetória em tecnologia como desenvolvedor, o que hoje me dá uma visão diferenciada como QA: entendo o código por trás do bug, não só o sintoma. Desde 2023 atuo focado em Qualidade de Software, evoluindo de testes manuais estruturados para automação completa de fluxos web, API e mobile com Cypress, Playwright, Appium e K6.',
+    'Mais do que executar testes, gosto de liderar a conversa sobre qualidade. Sou eu quem facilita os rituais do time (Dailys, Plannings, Refinements e Retrospectivas), conduzo POCs que definem quais ferramentas o projeto adota e uso BDD com Gherkin para alinhar negócio e desenvolvimento em torno do mesmo entendimento. Qualidade, para mim, é responsabilidade do time inteiro — meu papel é puxar esse assunto todos os dias.',
   ],
   stats: [
     { value: 3, suffix: '+', label: 'Anos em Qualidade de Software' },
     { value: 6, suffix: '', label: 'Experiências profissionais' },
-    { value: 4, suffix: '', label: 'Ferramentas de automação no dia a dia' },
+    { value: 5, suffix: '', label: 'Ferramentas de automação no dia a dia' },
   ],
 };
 
@@ -130,7 +131,7 @@ export const skillGroups = [
   {
     title: 'Automação de Testes',
     icon: 'bolt',
-    tags: ['Cypress', 'Playwright', 'Appium', 'K6'],
+    tags: ['Cypress', 'Playwright', 'CodeCeptJS', 'Appium', 'K6' ],
   },
   {
     title: 'Metodologias & Processos',
@@ -140,12 +141,12 @@ export const skillGroups = [
   {
     title: 'Linguagens & Dados',
     icon: 'code',
-    tags: ['JavaScript', 'Python', 'MySQL', 'SQL'],
+    tags: ['JavaScript', 'TypeScript', 'MySQL', 'SQL'],
   },
   {
     title: 'Ferramentas',
     icon: 'wrench',
-    tags: ['JIRA', 'Git', 'Bubble (no-code)'],
+    tags: ['JIRA', 'Git', 'BitBucket' ,'Bubble (no-code)', 'Postman'],
   },
 ];
 

@@ -13,7 +13,7 @@ const CARDS = [
   },
   {
     label: 'LinkedIn',
-    value: '/in/felipe-lau',
+    value: 'Felipe Lau',
     href: profile.linkedin,
     Icon: LinkedInIcon,
     external: true,
